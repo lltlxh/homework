@@ -1,0 +1,37 @@
+$(document).ready(function () {
+  $('#nav_0').mousedown(function(){
+    $('#con_0').css("display","block");
+    $('#con_1').css("display","none");
+    $('#con_2').css("display","none");
+    $('#con_3').css("display","none");
+    $('#con_4').css("display","none");
+  })
+  $('#nav_1').mousedown(function(){
+    $('#con_0').css("display","none");
+    $('#con_1').css("display","flex");
+    $('#con_2').css("display","none");
+    $('#con_3').css("display","none");
+    $('#con_4').css("display","none");
+  })
+  $('#nav_2').mousedown(function(){
+    $('#con_0').css("display","none");
+    $('#con_1').css("display","none");
+    $('#con_2').css("display","block");
+    $('#con_3').css("display","none");
+    $('#con_4').css("display","none");
+  })
+  $('#nav_3').mousedown(function(){
+    $('#con_0').css("display","none");
+    $('#con_1').css("display","none");
+    $('#con_2').css("display","none");
+    $('#con_3').css("display","block");
+    $('#con_4').css("display","none");
+  })
+  $('#nav_4').mousedown(function(){
+    $('#con_0').css("display","none");
+    $('#con_1').css("display","none");
+    $('#con_2').css("display","none");
+    $('#con_3').css("display","none");
+    $('#con_4').css("display","block");
+  })
+});

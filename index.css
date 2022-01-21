@@ -1,0 +1,78 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+._row{
+  display: flex;
+  flex-direction: row;
+}
+._col{
+  display: flex;
+  flex-direction: column;
+}
+.nav{
+  height: 100%;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
+.nav_son{
+  height: 10%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+}
+.nav_son:hover{
+  background-color: black;
+}
+.con{
+  width: 90%;
+  height: 100%;
+}
+.con_son{
+  width: 100%;
+  height: 100%;
+}
+#con_0{
+  height: 100%;
+  display: block;
+}
+#con_1{
+  height: 100%;
+  display: none;
+}
+#con_2{
+  height: 100%;
+  display: none;
+}
+#con_3{
+  height: 100%;
+  display: none;
+  
+}
+#con_4{
+  height: 100%;
+  color: blue;
+  background-image: url('picture/jiayou.jpeg');
+  background-repeat: no-repeat;
+  display: none;
+}
+._row#h_60{
+  height: 60%;
+}
+._row#h_40{
+  width: 100%;
+  justify-content: center;
+  height: 40%;
+}
+#h_50{
+  height: 50%;
+}
+#h_100{
+  height: 100%;
+}
